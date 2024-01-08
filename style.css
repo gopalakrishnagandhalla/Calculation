@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+#form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    width: 400px;
+}
+
+.score{
+    color: rgb(18, 166, 4);
+    text-align: right;
+    font-size: 20px;
+}
+
+.quastion{
+    font-size: 35px;
+}
+
+.input{
+    width: 100%;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    color: green;
+    border: solid green;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: lightgrey;
+}
+
+.btn {
+    margin-top : 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: green;
+    border: 0;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(2, 82, 2);
+    cursor: pointer;
+}
+
+@media (max-width: 400Px) {
+    .form{
+        margin: 20px;
+    }
+}
